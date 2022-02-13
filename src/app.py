@@ -7,3 +7,7 @@ def create_app() -> Flask:
     routes_and_views.init_app(app)
 
     return app
+
+
+# scripts baseados na resolução de Roberval Filho:
+# https://github.com/tryber/sd-012-project-job-insights/pull/28/files
