@@ -40,5 +40,6 @@ def test_sort_by_criteria():
     sort_by(list_mock, 'date_posted')
     assert list_mock == list_expect_date_posted
 
+
 with pytest.raises(ValueError):
     sort_by(list_mock, 'invalid_criteria')
